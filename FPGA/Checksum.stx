@@ -1,0 +1,132 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: Checksum.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Almacen_datos_RAM.vhd" into library work
+Parsing entity <Almacen_datos_RAM>.
+Parsing architecture <Behavioral> of entity <almacen_datos_ram>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Banco_de_memorias.vhd" into library work
+Parsing entity <Banco_de_memorias>.
+Parsing architecture <Behavioral> of entity <banco_de_memorias>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum.vhd" into library work
+Parsing entity <Checksum>.
+Parsing architecture <Behavioral> of entity <checksum>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum_sistem.vhd" into library work
+Parsing entity <Checksum_sistem>.
+Parsing architecture <Behavioral> of entity <checksum_sistem>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\cont_5ms_max4.vhd" into library work
+Parsing entity <cont_5ms_max4>.
+Parsing architecture <Behavioral> of entity <cont_5ms_max4>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario.vhd" into library work
+Parsing entity <contador_binario>.
+Parsing architecture <n_bits> of entity <contador_binario>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario_5bits.vhd" into library work
+Parsing entity <contador_binario_5bits>.
+Parsing architecture <n_bits> of entity <contador_binario_5bits>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario_6bits.vhd" into library work
+Parsing entity <contador_binario_6bits>.
+Parsing architecture <n_bits> of entity <contador_binario_6bits>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_binario-8_bits.vhd" into library work
+Parsing entity <contador_binario_8bits>.
+Parsing architecture <n_bits> of entity <contador_binario_8bits>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_Display_Leds.vhd" into library work
+Parsing entity <Contador_Display_Leds>.
+Parsing architecture <Behavioral> of entity <contador_display_leds>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_senal_PPS.vhd" into library work
+Parsing entity <Contador_senal_PPS>.
+Parsing architecture <Behavioral> of entity <contador_senal_pps>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contadores_Y_Despliegue.vhd" into library work
+Parsing entity <Contadores_Y_Despliegue>.
+Parsing architecture <Behavioral> of entity <contadores_y_despliegue>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\div_de_fre.vhd" into library work
+Parsing entity <div_de_fre>.
+Parsing architecture <modulo_variable> of entity <div_de_fre>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\evento_interrupcion.vhd" into library work
+Parsing entity <evento_interrupcion>.
+Parsing architecture <Behavioral> of entity <evento_interrupcion>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Gestion_Funciones_Mini_Mute_FPGA.vhd" into library work
+Parsing entity <Gestion_Funciones_Mini_Mute_FPGA>.
+Parsing architecture <Behavioral> of entity <gestion_funciones_mini_mute_fpga>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\INTERRUPCION_B.vhd" into library work
+Parsing entity <INTERRUPCION_S>.
+Parsing architecture <Behavioral> of entity <interrupcion_s>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\INTERRUPCION_S.vhd" into library work
+Parsing entity <INTERRUPCION_B>.
+Parsing architecture <Behavioral> of entity <interrupcion_b>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\MAC_cout.vhd" into library work
+Parsing entity <MAC_cout>.
+Parsing architecture <Behavioral> of entity <mac_cout>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Mac_Funciones_Mini_Mute.vhd" into library work
+Parsing entity <Mac_Funciones_Mini_Mute_FPGA>.
+Parsing architecture <Behavioral> of entity <mac_funciones_mini_mute_fpga>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\MAC_SPI.vhd" into library work
+Parsing entity <Maquina_SPI_SLAVE>.
+Parsing architecture <Behavioral> of entity <maquina_spi_slave>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Maquina_checksum.vhd" into library work
+Parsing entity <Maquina_checksum>.
+Parsing architecture <Behavioral> of entity <maquina_checksum>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Mini_Mute_FPGA.vhd" into library work
+Parsing entity <Mini_Mute_FPGA>.
+Parsing architecture <Behavioral> of entity <mini_mute_fpga>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\paralelo_serial.vhd" into library work
+Parsing entity <Paralelo_Serial>.
+Parsing architecture <n_bits> of entity <paralelo_serial>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Serial_Paralelo.vhd" into library work
+Parsing entity <Serial_Paralelo>.
+Parsing architecture <Behavioral> of entity <serial_paralelo>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\SPI_SLAVE_R_W_.vhd" into library work
+Parsing entity <SPI_SLAVE_R_W>.
+Parsing architecture <Behavioral> of entity <spi_slave_r_w>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum_R.vhd" into library work
+Parsing entity <Checksum_RR>.
+Parsing architecture <Behavioral> of entity <checksum_rr>.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.37 secs
+ 
+--> 
+
+Total memory usage is 187792 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,30 @@
+Command line:
+   Sim_Mini_Mute_FPGA_V3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49239
+
+Thu Jan 25 13:11:24 2018
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 671.588 Meg
+
+ Total Signals          : 594
+ Total Nets             : 2390
+ Total Signal Drivers   : 271
+ Total Blocks           : 59
+ Total Primitive Blocks : 47
+ Total Processes        : 265
+ Total Traceable Variables  : 35
+ Total Scalar Nets and Variables : 2911
+Total Line Count : 1139
+Total Line Count : 1139
+
+ Total Simulation Time: 0.920406 sec
+
+ Current Memory Usage: 671.588 Meg
+
+Thu Jan 25 13:14:29 2018
+

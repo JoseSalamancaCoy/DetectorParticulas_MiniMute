@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Mini_Mute_FPGA_V3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Checksum.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Checksum.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Checksum.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Mini_Mute_FPGA.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Mini_Mute_FPGA.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Mini_Mute_FPGA.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Mini_Mute_FPGA.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Mini_Mute_FPGA.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Mini_Mute_FPGA.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Mini_Mute_FPGA.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Mini_Mute_FPGA.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Mini_Mute_FPGA.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Mini_Mute_FPGA.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mini_Mute_FPGA.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Mini_Mute_FPGA.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Mini_Mute_FPGA.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Mini_Mute_FPGA.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Mini_Mute_FPGA.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Mini_Mute_FPGA.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Mini_Mute_FPGA.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Mini_Mute_FPGA.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Mini_Mute_FPGA.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Mini_Mute_FPGA.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Mini_Mute_FPGA_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Mini_Mute_FPGA_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Mini_Mute_FPGA_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Mini_Mute_FPGA_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Mini_Mute_FPGA_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Mini_Mute_FPGA_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Mini_Mute_FPGA_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Mini_Mute_FPGA_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Mini_Mute_FPGA_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="Mini_Mute_FPGA_pad.txt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Mini_Mute_FPGA_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Mini_Mute_FPGA_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Mini_Mute_FPGA_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Mini_Mute_FPGA_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Mini_Mute_FPGA_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SPI_SLAVE_R_W.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SPI_SLAVE_R_W.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SPI_SLAVE_R_W.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SPI_SLAVE_R_W.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SPI_SLAVE_R_W.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SPI_SLAVE_R_W.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SPI_SLAVE_R_W.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SPI_SLAVE_R_W.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SPI_SLAVE_R_W_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SPI_SLAVE_R_W_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SPI_SLAVE_R_W_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sim_Mini_Mute_FPGA_V3_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Sim_Mini_Mute_FPGA_V3_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Sim_Mini_Mute_FPGA_V3_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="contador_binario_4bits.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="contador_binario_4bits.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="contador_binario_4bits.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="contador_binario_4bits.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contador_binario_4bits.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="contador_binario_4bits.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="contador_binario_4bits.syr"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="contador_binario_4bits.vhi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="contador_binario_4bits.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contador_binario_4bits_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contador_binario_8bits.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="contador_binario_8bits.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="contador_binario_8bits.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="contador_binario_8bits.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="mini_mute_fpga.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_BIN" xil_pn:name="mini_mute_fpga.bin"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="mini_mute_fpga.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="mini_mute_fpga.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1516255800" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1516255800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1516903875" xil_pn:in_ck="-8916863114698370743" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1516903874">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Almacen_datos_RAM.vhd"/>
+      <outfile xil_pn:name="Banco_de_memorias.vhd"/>
+      <outfile xil_pn:name="Checksum.vhd"/>
+      <outfile xil_pn:name="Checksum_R.vhd"/>
+      <outfile xil_pn:name="Checksum_sistem.vhd"/>
+      <outfile xil_pn:name="Contador_Display_Leds.vhd"/>
+      <outfile xil_pn:name="Contador_binario-8_bits.vhd"/>
+      <outfile xil_pn:name="Contador_senal_PPS.vhd"/>
+      <outfile xil_pn:name="Contadores_Y_Despliegue.vhd"/>
+      <outfile xil_pn:name="Gestion_Funciones_Mini_Mute_FPGA.vhd"/>
+      <outfile xil_pn:name="INTERRUPCION_B.vhd"/>
+      <outfile xil_pn:name="INTERRUPCION_S.vhd"/>
+      <outfile xil_pn:name="MAC_SPI.vhd"/>
+      <outfile xil_pn:name="MAC_cout.vhd"/>
+      <outfile xil_pn:name="Mac_Funciones_Mini_Mute.vhd"/>
+      <outfile xil_pn:name="Maquina_checksum.vhd"/>
+      <outfile xil_pn:name="Mini_Mute_FPGA.vhd"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W_.vhd"/>
+      <outfile xil_pn:name="Serial_Paralelo.vhd"/>
+      <outfile xil_pn:name="Sim_Mini_Mute_FPGA_V3.vhd"/>
+      <outfile xil_pn:name="cont_5ms_max4.vhd"/>
+      <outfile xil_pn:name="contador_binario.vhd"/>
+      <outfile xil_pn:name="contador_binario_4bits.vhd"/>
+      <outfile xil_pn:name="contador_binario_5bits.vhd"/>
+      <outfile xil_pn:name="contador_binario_6bits.vhd"/>
+      <outfile xil_pn:name="div_de_fre.vhd"/>
+      <outfile xil_pn:name="evento_interrupcion.vhd"/>
+      <outfile xil_pn:name="paralelo_serial.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1516256050" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3241978456010319882" xil_pn:start_ts="1516256050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1516256050" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6118782034836516728" xil_pn:start_ts="1516256050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1516255800" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2371367328238329275" xil_pn:start_ts="1516255800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1516903875" xil_pn:in_ck="-8916863114698370743" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1516903875">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Almacen_datos_RAM.vhd"/>
+      <outfile xil_pn:name="Banco_de_memorias.vhd"/>
+      <outfile xil_pn:name="Checksum.vhd"/>
+      <outfile xil_pn:name="Checksum_R.vhd"/>
+      <outfile xil_pn:name="Checksum_sistem.vhd"/>
+      <outfile xil_pn:name="Contador_Display_Leds.vhd"/>
+      <outfile xil_pn:name="Contador_binario-8_bits.vhd"/>
+      <outfile xil_pn:name="Contador_senal_PPS.vhd"/>
+      <outfile xil_pn:name="Contadores_Y_Despliegue.vhd"/>
+      <outfile xil_pn:name="Gestion_Funciones_Mini_Mute_FPGA.vhd"/>
+      <outfile xil_pn:name="INTERRUPCION_B.vhd"/>
+      <outfile xil_pn:name="INTERRUPCION_S.vhd"/>
+      <outfile xil_pn:name="MAC_SPI.vhd"/>
+      <outfile xil_pn:name="MAC_cout.vhd"/>
+      <outfile xil_pn:name="Mac_Funciones_Mini_Mute.vhd"/>
+      <outfile xil_pn:name="Maquina_checksum.vhd"/>
+      <outfile xil_pn:name="Mini_Mute_FPGA.vhd"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W_.vhd"/>
+      <outfile xil_pn:name="Serial_Paralelo.vhd"/>
+      <outfile xil_pn:name="Sim_Mini_Mute_FPGA_V3.vhd"/>
+      <outfile xil_pn:name="cont_5ms_max4.vhd"/>
+      <outfile xil_pn:name="contador_binario.vhd"/>
+      <outfile xil_pn:name="contador_binario_4bits.vhd"/>
+      <outfile xil_pn:name="contador_binario_5bits.vhd"/>
+      <outfile xil_pn:name="contador_binario_6bits.vhd"/>
+      <outfile xil_pn:name="div_de_fre.vhd"/>
+      <outfile xil_pn:name="evento_interrupcion.vhd"/>
+      <outfile xil_pn:name="paralelo_serial.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1516903882" xil_pn:in_ck="-8916863114698370743" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6129513490009676428" xil_pn:start_ts="1516903875">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Sim_Mini_Mute_FPGA_V3_beh.prj"/>
+      <outfile xil_pn:name="Sim_Mini_Mute_FPGA_V3_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1516903882" xil_pn:in_ck="-3894255214761397213" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2824970581590684959" xil_pn:start_ts="1516903882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Sim_Mini_Mute_FPGA_V3_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1516254799" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1516254799">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1517859377" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8904456247713658962" xil_pn:start_ts="1517859377">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1517859377" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8810325693258257906" xil_pn:start_ts="1517859377">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1517859377" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1517859377">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1517859377" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5648130627905714576" xil_pn:start_ts="1517859377">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1517859377" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745293037926" xil_pn:start_ts="1517859377">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1517859377" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4003811514363968104" xil_pn:start_ts="1517859377">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1517859389" xil_pn:in_ck="2256843126595122245" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-6642886268758633497" xil_pn:start_ts="1517859377">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W.lso"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W.ngc"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W.ngr"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W.prj"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W.stx"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W.syr"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W.xst"/>
+      <outfile xil_pn:name="SPI_SLAVE_R_W_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1516261743" xil_pn:in_ck="-7773326628893327329" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="6797789833501384188" xil_pn:start_ts="1516261743">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+  </transforms>
+
+</generated_project>

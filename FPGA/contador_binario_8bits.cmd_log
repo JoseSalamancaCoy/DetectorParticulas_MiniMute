@@ -1,0 +1,1 @@
+vhdtdtfi -prj Mini_Mute_FPGA_V3 -o "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/contador_binario_8bits.vhi" -module contador_binario_8bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Contador_binario-8_bits.vhd 

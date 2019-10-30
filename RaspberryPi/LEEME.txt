@@ -1,0 +1,1 @@
+Se desarrollo la interfaz de este proyecto mediante C++ utilizando el entorno grafico y facilidades de QT

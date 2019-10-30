@@ -1,0 +1,47 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jan 18 02:59:54 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "PPS" LOCATE = SITE "R11" LEVEL 1;
+COMP "Particulas<10>" LOCATE = SITE "C18" LEVEL 1;
+COMP "Particulas<11>" LOCATE = SITE "C17" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "MISO" LOCATE = SITE "H18" LEVEL 1;
+COMP "MOSI" LOCATE = SITE "H17" LEVEL 1;
+COMP "digito<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "digito<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "digito<2>" LOCATE = SITE "B3" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "T18" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "T17" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "U18" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "U17" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "N16" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "N15" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "P15" LEVEL 1;
+COMP "CS_SPI" LOCATE = SITE "U11" LEVEL 1;
+COMP "Evento_Particula" LOCATE = SITE "R10" LEVEL 1;
+COMP "Particulas<0>" LOCATE = SITE "R5" LEVEL 1;
+COMP "Particulas<1>" LOCATE = SITE "R3" LEVEL 1;
+COMP "Particulas<2>" LOCATE = SITE "U5" LEVEL 1;
+COMP "Particulas<3>" LOCATE = SITE "T4" LEVEL 1;
+COMP "Particulas<4>" LOCATE = SITE "F17" LEVEL 1;
+COMP "Particulas<5>" LOCATE = SITE "F18" LEVEL 1;
+COMP "Particulas<6>" LOCATE = SITE "E16" LEVEL 1;
+COMP "Particulas<7>" LOCATE = SITE "E18" LEVEL 1;
+COMP "Particulas<8>" LOCATE = SITE "D18" LEVEL 1;
+COMP "Particulas<9>" LOCATE = SITE "D17" LEVEL 1;
+COMP "numero<0>" LOCATE = SITE "A5" LEVEL 1;
+COMP "numero<1>" LOCATE = SITE "C6" LEVEL 1;
+COMP "numero<2>" LOCATE = SITE "D6" LEVEL 1;
+COMP "numero<3>" LOCATE = SITE "C5" LEVEL 1;
+COMP "numero<4>" LOCATE = SITE "C4" LEVEL 1;
+COMP "numero<5>" LOCATE = SITE "A4" LEVEL 1;
+COMP "numero<6>" LOCATE = SITE "B4" LEVEL 1;
+COMP "numero<7>" LOCATE = SITE "A3" LEVEL 1;
+COMP "CLK_SPI" LOCATE = SITE "J18" LEVEL 1;
+NET "clk_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

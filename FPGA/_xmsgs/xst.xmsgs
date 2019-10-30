@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\SPI_SLAVE_R_W_.vhd</arg>&quot; line <arg fmt="%s" index="2">214</arg>: Output port &lt;<arg fmt="%s" index="3">Rst_cont_bits</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_Maquina_SPI_SLAVE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_INTERRUPCION_S/Ant_INPUTT</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SPI_SLAVE_R_W</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_INTERRUPCION_B/Ant_INPUTT&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_INTERRUPCION_S/s1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SPI_SLAVE_R_W</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_INTERRUPCION_B/s1&gt; </arg>
+</msg>
+
+</messages>
+

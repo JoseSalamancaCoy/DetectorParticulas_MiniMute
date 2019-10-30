@@ -1,0 +1,1088 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Mini_Mute_FPGA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Mini_Mute_FPGA.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Mini_Mute_FPGA"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-csg324
+
+---- Source Options
+Top Module Name                    : Mini_Mute_FPGA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\div_de_fre.vhd" into library work
+Parsing entity <div_de_fre>.
+Parsing architecture <modulo_variable> of entity <div_de_fre>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario.vhd" into library work
+Parsing entity <contador_binario>.
+Parsing architecture <n_bits> of entity <contador_binario>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Maquina_checksum.vhd" into library work
+Parsing entity <Maquina_checksum>.
+Parsing architecture <Behavioral> of entity <maquina_checksum>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\MAC_cout.vhd" into library work
+Parsing entity <MAC_cout>.
+Parsing architecture <Behavioral> of entity <mac_cout>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\INTERRUPCION_B.vhd" into library work
+Parsing entity <INTERRUPCION_S>.
+Parsing architecture <Behavioral> of entity <interrupcion_s>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\cont_5ms_max4.vhd" into library work
+Parsing entity <cont_5ms_max4>.
+Parsing architecture <Behavioral> of entity <cont_5ms_max4>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario_4bits.vhd" into library work
+Parsing entity <contador_binario_4bits>.
+Parsing architecture <n_bits> of entity <contador_binario_4bits>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_binario-8_bits.vhd" into library work
+Parsing entity <contador_binario_8bits>.
+Parsing architecture <n_bits> of entity <contador_binario_8bits>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum_R.vhd" into library work
+Parsing entity <Checksum_RR>.
+Parsing architecture <Behavioral> of entity <checksum_rr>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum.vhd" into library work
+Parsing entity <Checksum>.
+Parsing architecture <Behavioral> of entity <checksum>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Serial_Paralelo.vhd" into library work
+Parsing entity <Serial_Paralelo>.
+Parsing architecture <Behavioral> of entity <serial_paralelo>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\paralelo_serial.vhd" into library work
+Parsing entity <Paralelo_Serial>.
+Parsing architecture <n_bits> of entity <paralelo_serial>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\MAC_SPI.vhd" into library work
+Parsing entity <Maquina_SPI_SLAVE>.
+Parsing architecture <Behavioral> of entity <maquina_spi_slave>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Mac_Funciones_Mini_Mute.vhd" into library work
+Parsing entity <Mac_Funciones_Mini_Mute_FPGA>.
+Parsing architecture <Behavioral> of entity <mac_funciones_mini_mute_fpga>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\INTERRUPCION_S.vhd" into library work
+Parsing entity <INTERRUPCION_B>.
+Parsing architecture <Behavioral> of entity <interrupcion_b>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\evento_interrupcion.vhd" into library work
+Parsing entity <evento_interrupcion>.
+Parsing architecture <Behavioral> of entity <evento_interrupcion>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_senal_PPS.vhd" into library work
+Parsing entity <Contador_senal_PPS>.
+Parsing architecture <Behavioral> of entity <contador_senal_pps>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_Display_Leds.vhd" into library work
+Parsing entity <Contador_Display_Leds>.
+Parsing architecture <Behavioral> of entity <contador_display_leds>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario_6bits.vhd" into library work
+Parsing entity <contador_binario_6bits>.
+Parsing architecture <n_bits> of entity <contador_binario_6bits>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario_5bits.vhd" into library work
+Parsing entity <contador_binario_5bits>.
+Parsing architecture <n_bits> of entity <contador_binario_5bits>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum_sistem.vhd" into library work
+Parsing entity <Checksum_sistem>.
+Parsing architecture <Behavioral> of entity <checksum_sistem>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Almacen_datos_RAM.vhd" into library work
+Parsing entity <Almacen_datos_RAM>.
+Parsing architecture <Behavioral> of entity <almacen_datos_ram>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\SPI_SLAVE_R_W_.vhd" into library work
+Parsing entity <SPI_SLAVE_R_W>.
+Parsing architecture <Behavioral> of entity <spi_slave_r_w>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Gestion_Funciones_Mini_Mute_FPGA.vhd" into library work
+Parsing entity <Gestion_Funciones_Mini_Mute_FPGA>.
+Parsing architecture <Behavioral> of entity <gestion_funciones_mini_mute_fpga>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contadores_Y_Despliegue.vhd" into library work
+Parsing entity <Contadores_Y_Despliegue>.
+Parsing architecture <Behavioral> of entity <contadores_y_despliegue>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Banco_de_memorias.vhd" into library work
+Parsing entity <Banco_de_memorias>.
+Parsing architecture <Behavioral> of entity <banco_de_memorias>.
+Parsing VHDL file "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Mini_Mute_FPGA.vhd" into library work
+Parsing entity <Mini_Mute_FPGA>.
+Parsing architecture <Behavioral> of entity <mini_mute_fpga>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Mini_Mute_FPGA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Gestion_Funciones_Mini_Mute_FPGA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <INTERRUPCION_S> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <INTERRUPCION_B> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mac_Funciones_Mini_Mute_FPGA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Banco_de_memorias> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <evento_interrupcion> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Almacen_datos_RAM> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Contador_senal_PPS> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <contador_binario_5bits> (architecture <n_bits>) with generics from library <work>.
+
+Elaborating entity <Contadores_Y_Despliegue> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Contador_Display_Leds> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MAC_cout> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <cont_5ms_max4> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <contador_binario> (architecture <n_bits>) with generics from library <work>.
+
+Elaborating entity <div_de_fre> (architecture <modulo_variable>) with generics from library <work>.
+
+Elaborating entity <contador_binario_4bits> (architecture <n_bits>) with generics from library <work>.
+
+Elaborating entity <contador_binario_8bits> (architecture <n_bits>) with generics from library <work>.
+
+Elaborating entity <SPI_SLAVE_R_W> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Maquina_SPI_SLAVE> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Paralelo_Serial> (architecture <n_bits>) with generics from library <work>.
+
+Elaborating entity <Serial_Paralelo> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <contador_binario_6bits> (architecture <n_bits>) with generics from library <work>.
+
+Elaborating entity <Checksum_sistem> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Checksum> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Checksum_RR> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Maquina_checksum> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Mini_Mute_FPGA>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Mini_Mute_FPGA.vhd".
+    Summary:
+	no macro.
+Unit <Mini_Mute_FPGA> synthesized.
+
+Synthesizing Unit <Gestion_Funciones_Mini_Mute_FPGA>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Gestion_Funciones_Mini_Mute_FPGA.vhd".
+    Found 1-bit register for signal <CS_SPI_2>.
+    Found 1-bit register for signal <Interrup_S_CS_SPI_S>.
+    Found 1-bit register for signal <Interrup_B_CS_SPI_S>.
+    Found 1-bit register for signal <CS_SPI_OUT>.
+    Found 1-bit register for signal <Despliegue_numEventos_numErrores>.
+    Found 1-bit register for signal <CS_SPI_1>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <Gestion_Funciones_Mini_Mute_FPGA> synthesized.
+
+Synthesizing Unit <INTERRUPCION_S>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\INTERRUPCION_B.vhd".
+    Found 1-bit register for signal <s1>.
+    Found 1-bit register for signal <Ant_INPUTT>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <INTERRUPCION_S> synthesized.
+
+Synthesizing Unit <INTERRUPCION_B>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\INTERRUPCION_S.vhd".
+    Found 1-bit register for signal <s1>.
+    Found 1-bit register for signal <Ant_INPUTT>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <INTERRUPCION_B> synthesized.
+
+Synthesizing Unit <Mac_Funciones_Mini_Mute_FPGA>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Mac_Funciones_Mini_Mute.vhd".
+    Found 4-bit register for signal <Q_bus>.
+    Found finite state machine <FSM_0> for signal <Q_bus>.
+    -----------------------------------------------------------------------
+    | States             | 13                                             |
+    | Transitions        | 27                                             |
+    | Inputs             | 14                                             |
+    | Outputs            | 16                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | espera                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Mac_Funciones_Mini_Mute_FPGA> synthesized.
+
+Synthesizing Unit <Banco_de_memorias>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Banco_de_memorias.vhd".
+    Found 12-bit register for signal <Particulas_3>.
+    Found 1-bit register for signal <PPS_2>.
+    Found 1-bit register for signal <PPS_3>.
+    Found 1-bit register for signal <Null_PPS>.
+    Found 12-bit register for signal <Particulas_2>.
+    Found 39-bit 4-to-1 multiplexer for signal <Data_IN_RAM> created at line 145.
+    Found 5-bit 4-to-1 multiplexer for signal <addr_W> created at line 152.
+    Found 27-bit comparator greater for signal <Max_TIME> created at line 277
+    Found 5-bit comparator lessequal for signal <n0018> created at line 278
+    Found 5-bit comparator lessequal for signal <n0020> created at line 279
+    Summary:
+	inferred  27 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <Banco_de_memorias> synthesized.
+
+Synthesizing Unit <evento_interrupcion>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\evento_interrupcion.vhd".
+    Summary:
+	no macro.
+Unit <evento_interrupcion> synthesized.
+
+Synthesizing Unit <Almacen_datos_RAM>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Almacen_datos_RAM.vhd".
+    Found 32x39-bit dual-port RAM <Mram_RAM_eventos> for signal <RAM_eventos>.
+    Found 39-bit register for signal <Data_Out>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  39 D-type flip-flop(s).
+Unit <Almacen_datos_RAM> synthesized.
+
+Synthesizing Unit <Contador_senal_PPS>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_senal_PPS.vhd".
+    Found 1-bit register for signal <bug_clock>.
+    Found 27-bit register for signal <q>.
+    Found 1-bit register for signal <salida>.
+    Found 27-bit adder for signal <q[26]_GND_15_o_add_0_OUT> created at line 49.
+    Found 27-bit comparator greater for signal <Comparador_INV_18_o> created at line 50
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Contador_senal_PPS> synthesized.
+
+Synthesizing Unit <contador_binario_5bits>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario_5bits.vhd".
+        n = 5
+    Found 5-bit register for signal <q>.
+    Found 5-bit adder for signal <d> created at line 20.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   5 D-type flip-flop(s).
+Unit <contador_binario_5bits> synthesized.
+
+Synthesizing Unit <Contadores_Y_Despliegue>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contadores_Y_Despliegue.vhd".
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <Contadores_Y_Despliegue> synthesized.
+
+Synthesizing Unit <Contador_Display_Leds>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_Display_Leds.vhd".
+    Found 16x8-bit Read Only RAM for signal <numero>
+    Found 4x3-bit Read Only RAM for signal <digito>
+    Found 1-bit 4-to-1 multiplexer for signal <ant_numero<3>> created at line 174.
+    Found 1-bit 4-to-1 multiplexer for signal <ant_numero<2>> created at line 174.
+    Found 1-bit 4-to-1 multiplexer for signal <ant_numero<1>> created at line 174.
+    Found 1-bit 4-to-1 multiplexer for signal <ant_numero<0>> created at line 174.
+    Summary:
+	inferred   2 RAM(s).
+	inferred   4 Multiplexer(s).
+Unit <Contador_Display_Leds> synthesized.
+
+Synthesizing Unit <MAC_cout>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\MAC_cout.vhd".
+    Found 3-bit register for signal <Q_bus>.
+    Found finite state machine <FSM_1> for signal <Q_bus>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 16                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | reinicio                                       |
+    | Power Up State     | espera                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <MAC_cout> synthesized.
+
+Synthesizing Unit <cont_5ms_max4>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\cont_5ms_max4.vhd".
+    Summary:
+	no macro.
+Unit <cont_5ms_max4> synthesized.
+
+Synthesizing Unit <contador_binario>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario.vhd".
+        n = 2
+    Found 2-bit register for signal <q>.
+    Found 2-bit adder for signal <mas1> created at line 22.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <contador_binario> synthesized.
+
+Synthesizing Unit <div_de_fre>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\div_de_fre.vhd".
+        n = 13
+    Found 13-bit register for signal <q>.
+    Found 13-bit adder for signal <mas1> created at line 23.
+    Found 13-bit comparator greater for signal <compara_INV_32_o> created at line 22
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  13 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <div_de_fre> synthesized.
+
+Synthesizing Unit <contador_binario_4bits>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario_4bits.vhd".
+        n = 4
+    Found 4-bit register for signal <q>.
+    Found 4-bit adder for signal <d> created at line 21.
+    Found 4-bit comparator lessequal for signal <q[3]_PWR_29_o_LessThan_2_o> created at line 23
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <contador_binario_4bits> synthesized.
+
+Synthesizing Unit <contador_binario_8bits>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Contador_binario-8_bits.vhd".
+        n = 8
+    Found 8-bit register for signal <q>.
+    Found 8-bit adder for signal <d> created at line 39.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <contador_binario_8bits> synthesized.
+
+Synthesizing Unit <SPI_SLAVE_R_W>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\SPI_SLAVE_R_W_.vhd".
+INFO:Xst:3210 - "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\SPI_SLAVE_R_W_.vhd" line 214: Output port <Rst_cont_bits> of the instance <Inst_Maquina_SPI_SLAVE> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <CLK_SPI_3>.
+    Found 1-bit register for signal <EN_W_1>.
+    Found 1-bit register for signal <CLK_SPI_2>.
+    Found 6-bit comparator greater for signal <cont_bits[5]_GND_33_o_LessThan_3_o> created at line 161
+    Found 6-bit comparator lessequal for signal <n0007> created at line 163
+    Found 3-bit comparator equal for signal <RTA_Checksum_R> created at line 270
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <SPI_SLAVE_R_W> synthesized.
+
+Synthesizing Unit <Maquina_SPI_SLAVE>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\MAC_SPI.vhd".
+    Found 2-bit register for signal <Q_bus>.
+    Found finite state machine <FSM_2> for signal <Q_bus>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | espera                                         |
+    | Power Up State     | espera                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Maquina_SPI_SLAVE> synthesized.
+
+Synthesizing Unit <Paralelo_Serial>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\paralelo_serial.vhd".
+        n = 40
+    Found 40-bit register for signal <tmp>.
+    Summary:
+	inferred  40 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Paralelo_Serial> synthesized.
+
+Synthesizing Unit <Serial_Paralelo>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Serial_Paralelo.vhd".
+    Found 9-bit register for signal <tmp>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <Serial_Paralelo> synthesized.
+
+Synthesizing Unit <contador_binario_6bits>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\contador_binario_6bits.vhd".
+        n = 6
+    Found 6-bit register for signal <q>.
+    Found 6-bit adder for signal <d> created at line 20.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+Unit <contador_binario_6bits> synthesized.
+
+Synthesizing Unit <Checksum_sistem>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum_sistem.vhd".
+    Found 6-bit comparator greater for signal <I_Cks_R> created at line 100
+    Found 6-bit comparator lessequal for signal <n0005> created at line 101
+    Found 6-bit comparator greater for signal <cont_bits[5]_PWR_36_o_LessThan_3_o> created at line 101
+    Summary:
+	inferred   3 Comparator(s).
+Unit <Checksum_sistem> synthesized.
+
+Synthesizing Unit <Checksum>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum.vhd".
+        n = 6
+    Found 6-bit register for signal <q>.
+    Found 6-bit adder for signal <q[5]_GND_39_o_add_0_OUT> created at line 42.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+Unit <Checksum> synthesized.
+
+Synthesizing Unit <Checksum_RR>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Checksum_R.vhd".
+        n = 3
+    Found 3-bit register for signal <q>.
+    Found 3-bit adder for signal <q[2]_GND_40_o_add_0_OUT> created at line 42.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+Unit <Checksum_RR> synthesized.
+
+Synthesizing Unit <Maquina_checksum>.
+    Related source file is "C:\Jose Luis\Jose UIS\Proyecto de grado\Interfaz_digita\FPGA_V2\Mini_Mute_FPGA_V3\Maquina_checksum.vhd".
+    Found 3-bit register for signal <Q_bus>.
+    Found finite state machine <FSM_3> for signal <Q_bus>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | espera                                         |
+    | Power Up State     | espera                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Maquina_checksum> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x8-bit single-port Read Only RAM                    : 2
+ 32x39-bit dual-port RAM                               : 1
+ 4x3-bit single-port Read Only RAM                     : 2
+# Adders/Subtractors                                   : 18
+ 13-bit adder                                          : 2
+ 2-bit adder                                           : 2
+ 27-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 6
+ 5-bit adder                                           : 2
+ 6-bit adder                                           : 2
+ 8-bit adder                                           : 2
+# Registers                                            : 71
+ 1-bit register                                        : 48
+ 12-bit register                                       : 2
+ 13-bit register                                       : 2
+ 2-bit register                                        : 2
+ 27-bit register                                       : 1
+ 3-bit register                                        : 1
+ 39-bit register                                       : 1
+ 4-bit register                                        : 6
+ 40-bit register                                       : 1
+ 5-bit register                                        : 2
+ 6-bit register                                        : 2
+ 8-bit register                                        : 2
+ 9-bit register                                        : 1
+# Comparators                                          : 18
+ 13-bit comparator greater                             : 2
+ 27-bit comparator greater                             : 2
+ 3-bit comparator equal                                : 1
+ 4-bit comparator lessequal                            : 6
+ 5-bit comparator lessequal                            : 2
+ 6-bit comparator greater                              : 3
+ 6-bit comparator lessequal                            : 2
+# Multiplexers                                         : 20
+ 1-bit 4-to-1 multiplexer                              : 8
+ 13-bit 2-to-1 multiplexer                             : 2
+ 2-bit 2-to-1 multiplexer                              : 2
+ 27-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 1
+ 39-bit 4-to-1 multiplexer                             : 1
+ 40-bit 2-to-1 multiplexer                             : 2
+ 5-bit 4-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 5
+# Xors                                                 : 18
+ 1-bit xor2                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Checksum>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <Checksum> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Checksum_RR>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <Checksum_RR> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Contador_Display_Leds>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_digito> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 3-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <CONT_MAX4>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <digito>        |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_numero> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ant_numero>    |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <numero>        |          |
+    -----------------------------------------------------------------------
+Unit <Contador_Display_Leds> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Contador_senal_PPS>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <Contador_senal_PPS> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Mini_Mute_FPGA>.
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <Inst_SPI_SLAVE_R_W/Inst_Serial_Paralelo/tmp> prevents it from being combined with the RAM <Inst_Banco_de_memorias/Inst_Almacen_datos_RAM/Mram_RAM_eventos> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 39-bit                    |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <WE_RAM>        | high     |
+    |     addrA          | connected to signal <Inst_Banco_de_memorias/addr_W> |          |
+    |     diA            | connected to signal <Inst_Banco_de_memorias/Data_IN_RAM> |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 39-bit                    |          |
+    |     addrB          | connected to signal <Paralelo_MOSI<7:3>> |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3226 - The RAM <Inst_Banco_de_memorias/Inst_Almacen_datos_RAM/Mram_RAM_eventos> will be implemented as a BLOCK RAM, absorbing the following register(s): <Inst_Banco_de_memorias/Inst_Almacen_datos_RAM/Data_Out>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 39-bit                    |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <WE_RAM>        | high     |
+    |     addrA          | connected to signal <Inst_Banco_de_memorias/addr_W> |          |
+    |     diA            | connected to signal <Inst_Banco_de_memorias/Data_IN_RAM> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 39-bit                    |          |
+    |     mode           | read-first                          |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     enB            | connected to signal <WE_RAM>        | low      |
+    |     addrB          | connected to signal <Paralelo_MOSI<7:3>> |          |
+    |     doB            | connected to signal <out_RAM_in_SPI> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <Mini_Mute_FPGA> synthesized (advanced).
+
+Synthesizing (advanced) Unit <contador_binario_4bits>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <contador_binario_4bits> synthesized (advanced).
+
+Synthesizing (advanced) Unit <contador_binario_5bits>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <contador_binario_5bits> synthesized (advanced).
+
+Synthesizing (advanced) Unit <contador_binario_6bits>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <contador_binario_6bits> synthesized (advanced).
+
+Synthesizing (advanced) Unit <contador_binario_8bits>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <contador_binario_8bits> synthesized (advanced).
+
+Synthesizing (advanced) Unit <div_de_fre>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <div_de_fre> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x8-bit single-port distributed Read Only RAM        : 2
+ 32x39-bit dual-port block RAM                         : 1
+ 4x3-bit single-port distributed Read Only RAM         : 2
+# Adders/Subtractors                                   : 2
+ 2-bit adder                                           : 2
+# Counters                                             : 16
+ 13-bit up counter                                     : 2
+ 27-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 6
+ 5-bit up counter                                      : 2
+ 6-bit up counter                                      : 2
+ 8-bit up counter                                      : 2
+# Registers                                            : 125
+ Flip-Flops                                            : 125
+# Comparators                                          : 18
+ 13-bit comparator greater                             : 2
+ 27-bit comparator greater                             : 2
+ 3-bit comparator equal                                : 1
+ 4-bit comparator lessequal                            : 6
+ 5-bit comparator lessequal                            : 2
+ 6-bit comparator greater                              : 3
+ 6-bit comparator lessequal                            : 2
+# Multiplexers                                         : 53
+ 1-bit 4-to-1 multiplexer                              : 47
+ 3-bit 2-to-1 multiplexer                              : 1
+ 40-bit 2-to-1 multiplexer                             : 2
+ 5-bit 4-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 5
+# Xors                                                 : 18
+ 1-bit xor2                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <Inst_SPI_SLAVE_R_W/Inst_INTERRUPCION_S/Ant_INPUTT> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_SPI_SLAVE_R_W/Inst_INTERRUPCION_B/Ant_INPUTT> 
+INFO:Xst:2261 - The FF/Latch <Inst_INTERRUPCION_S/Ant_INPUTT> in Unit <Gestion_Funciones_Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_INTERRUPCION_B/Ant_INPUTT> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_2> on signal <Q_bus[1:2]> with user encoding.
+---------------------------
+ State         | Encoding
+---------------------------
+ espera        | 00
+ lectura       | 01
+ ant_escritura | 10
+ escritura     | 11
+---------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_SPI_SLAVE_R_W/Inst_Checksum_sistem/FSM_3> on signal <Q_bus[1:3]> with gray encoding.
+-----------------------------
+ State           | Encoding
+-----------------------------
+ espera          | 000
+ init_cks_r      | 011
+ init_cks_w      | 001
+ ant_carga_cks_w | 010
+ carga_cks_w     | 110
+-----------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_Gestion_Funciones_Mini_Mute_FPGA/FSM_0> on signal <Q_bus[1:13]> with one-hot encoding.
+-----------------------------------------
+ State                  | Encoding
+-----------------------------------------
+ espera                 | 0000000000001
+ init_comunicacion      | 0001000000000
+ fin_comunicacion       | 0000100000000
+ rst_timepps_saturacion | 0000010000000
+ rst_ram                | 0000000001000
+ rst_pos_ram            | 0100000000000
+ cont_error             | 0000001000000
+ rst_contadores         | 0000000010000
+ carga_bits             | 0000000100000
+ save_eventos           | 0010000000000
+ save_errores           | 1000000000000
+ despliegue_errores     | 0000000000100
+ despliegue_eventos     | 0000000000010
+-----------------------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/FSM_1> on signal <Q_bus[1:3]> with user encoding.
+Optimizing FSM <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/FSM_1> on signal <Q_bus[1:3]> with user encoding.
+----------------------
+ State    | Encoding
+----------------------
+ espera   | 000
+ cont_u   | 001
+ cont_d   | 010
+ cont_c   | 011
+ cont_m   | 100
+ reinicio | 101
+----------------------
+INFO:Xst:2261 - The FF/Latch <Inst_SPI_SLAVE_R_W/Inst_INTERRUPCION_S/s1> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_SPI_SLAVE_R_W/Inst_INTERRUPCION_B/s1> 
+INFO:Xst:2261 - The FF/Latch <Inst_INTERRUPCION_S/s1> in Unit <Gestion_Funciones_Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_INTERRUPCION_B/s1> 
+
+Optimizing unit <Mini_Mute_FPGA> ...
+
+Optimizing unit <evento_interrupcion> ...
+
+Optimizing unit <Contador_senal_PPS> ...
+
+Optimizing unit <Checksum_sistem> ...
+
+Optimizing unit <Paralelo_Serial> ...
+
+Optimizing unit <Gestion_Funciones_Mini_Mute_FPGA> ...
+
+Optimizing unit <Contador_Display_Leds> ...
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_0> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_1> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_1> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_2> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_3> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_4> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_4> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_contador_binario/q_0> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_contador_binario/q_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_5> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_5> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_contador_binario/q_1> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_contador_binario/q_1> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_6> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_6> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_7> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_7> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_8> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_8> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_9> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_9> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_10> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_10> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_11> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_11> 
+INFO:Xst:2261 - The FF/Latch <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_cont_5ms_max4/Inst_div_de_fre/q_12> in Unit <Mini_Mute_FPGA> is equivalent to the following FF/Latch, which will be removed : <Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_cont_5ms_max4/Inst_div_de_fre/q_12> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Mini_Mute_FPGA, actual ratio is 8.
+FlipFlop Inst_Gestion_Funciones_Mini_Mute_FPGA/CS_SPI_OUT has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <Mini_Mute_FPGA> :
+	Found 2-bit shift register for signal <Inst_Banco_de_memorias/PPS_3>.
+	Found 2-bit shift register for signal <Inst_SPI_SLAVE_R_W/CLK_SPI_3>.
+	Found 2-bit shift register for signal <Inst_Gestion_Funciones_Mini_Mute_FPGA/CS_SPI_2>.
+Unit <Mini_Mute_FPGA> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 243
+ Flip-Flops                                            : 243
+# Shift Registers                                      : 3
+ 2-bit shift register                                  : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Mini_Mute_FPGA.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 538
+#      GND                         : 1
+#      INV                         : 27
+#      LUT1                        : 14
+#      LUT2                        : 72
+#      LUT3                        : 62
+#      LUT4                        : 63
+#      LUT5                        : 69
+#      LUT6                        : 112
+#      MUXCY                       : 59
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 56
+# FlipFlops/Latches                : 246
+#      FD                          : 68
+#      FDE                         : 3
+#      FDR                         : 61
+#      FDRE                        : 114
+# RAMS                             : 2
+#      RAMB8BWER                   : 2
+# Shift Registers                  : 3
+#      SRLC16E                     : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 37
+#      IBUF                        : 16
+#      OBUF                        : 21
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             246  out of  11440     2%  
+ Number of Slice LUTs:                  422  out of   5720     7%  
+    Number used as Logic:               419  out of   5720     7%  
+    Number used as Memory:                3  out of   1440     0%  
+       Number used as SRL:                3
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    449
+   Number with an unused Flip Flop:     203  out of    449    45%  
+   Number with an unused LUT:            27  out of    449     6%  
+   Number of fully used LUT-FF pairs:   219  out of    449    48%  
+   Number of unique control sets:        22
+
+IO Utilization: 
+ Number of IOs:                          38
+ Number of bonded IOBs:                  38  out of    200    19%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 251   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 5.557ns (Maximum Frequency: 179.953MHz)
+   Minimum input arrival time before clock: 3.830ns
+   Maximum output required time after clock: 7.996ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.557ns (frequency: 179.953MHz)
+  Total number of paths / destination ports: 13962 / 589
+-------------------------------------------------------------------------
+Delay:               5.557ns (Levels of Logic = 3)
+  Source:            Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_contador_binario_4bits_UNIDADES/q_1 (FF)
+  Destination:       Inst_Banco_de_memorias/Inst_Almacen_datos_RAM/Mram_RAM_eventos1 (RAM)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_contador_binario_4bits_UNIDADES/q_1 to Inst_Banco_de_memorias/Inst_Almacen_datos_RAM/Mram_RAM_eventos1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             5   0.525   1.271  Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_contador_binario_4bits_UNIDADES/q_1 (Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Inst_contador_binario_4bits_UNIDADES/q_1)
+     LUT5:I0->O           14   0.254   1.355  Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Mmux_ant_numero<1>11 (Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/ant_numero<1>)
+     LUT4:I1->O            1   0.235   0.682  Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Eventos/Mram_numero51 (num_Eventos<13>)
+     LUT6:I5->O            1   0.254   0.681  mux411 (Inst_Banco_de_memorias/Data_IN_RAM<13>)
+     RAMB8BWER:DIADI13         0.300          Inst_Banco_de_memorias/Inst_Almacen_datos_RAM/Mram_RAM_eventos1
+    ----------------------------------------
+    Total                      5.557ns (1.568ns logic, 3.989ns route)
+                                       (28.2% logic, 71.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 19 / 19
+-------------------------------------------------------------------------
+Offset:              3.830ns (Levels of Logic = 2)
+  Source:            MOSI (PAD)
+  Destination:       Inst_SPI_SLAVE_R_W/Inst_Checksum_sistem/Inst_Checksum_R/q_2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: MOSI to Inst_SPI_SLAVE_R_W/Inst_Checksum_sistem/Inst_Checksum_R/q_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.328   1.181  MOSI_IBUF (MOSI_IBUF)
+     LUT6:I0->O            3   0.254   0.765  Inst_SPI_SLAVE_R_W/Inst_Checksum_sistem/Inst_Checksum_R/_n0017_inv1 (Inst_SPI_SLAVE_R_W/Inst_Checksum_sistem/Inst_Checksum_R/_n0017_inv)
+     FDRE:CE                   0.302          Inst_SPI_SLAVE_R_W/Inst_Checksum_sistem/Inst_Checksum_R/q_0
+    ----------------------------------------
+    Total                      3.830ns (1.884ns logic, 1.946ns route)
+                                       (49.2% logic, 50.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 342 / 20
+-------------------------------------------------------------------------
+Offset:              7.996ns (Levels of Logic = 4)
+  Source:            Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_contador_binario_4bits_UNIDADES/q_1 (FF)
+  Destination:       numero<5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_contador_binario_4bits_UNIDADES/q_1 to numero<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             5   0.525   1.271  Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_contador_binario_4bits_UNIDADES/q_1 (Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Inst_contador_binario_4bits_UNIDADES/q_1)
+     LUT5:I0->O            7   0.254   1.138  Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Mmux_ant_numero<1>11 (Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/ant_numero<1>)
+     LUT4:I1->O            2   0.235   0.726  Inst_Contadores_Y_Despliegue/Inst_Contador_Display_Leds_Errores/Mram_numero51 (num_Errores<13>)
+     LUT6:I5->O            1   0.254   0.681  Inst_Contadores_Y_Despliegue/Mmux_numero61 (numero_5_OBUF)
+     OBUF:I->O                 2.912          numero_5_OBUF (numero<5>)
+    ----------------------------------------
+    Total                      7.996ns (4.180ns logic, 3.816ns route)
+                                       (52.3% logic, 47.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.557|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.23 secs
+ 
+--> 
+
+Total memory usage is 258304 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   24 (   0 filtered)
+

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/SPI_SLAVE_R_W.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/SPI_SLAVE_R_W.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/SPI_SLAVE_R_W.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/SPI_SLAVE_R_W.syr" 

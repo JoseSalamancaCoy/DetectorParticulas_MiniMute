@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "Mini_Mute_FPGA.ngc" Mini_Mute_FPGA.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ngd Mini_Mute_FPGA.pcf 
+par -w -intstyle ise -ol high -mt off Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ncd Mini_Mute_FPGA.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mini_Mute_FPGA.twx Mini_Mute_FPGA.ncd -o Mini_Mute_FPGA.twr Mini_Mute_FPGA.pcf 
+bitgen -intstyle ise -f Mini_Mute_FPGA.ut Mini_Mute_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF_Spartan6_V2.ucf -p xc6slx9-csg324-2 "Mini_Mute_FPGA.ngc" Mini_Mute_FPGA.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF_Spartan6_V2.ucf -p xc6slx9-csg324-2 "Mini_Mute_FPGA.ngc" Mini_Mute_FPGA.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ngd Mini_Mute_FPGA.pcf 
+par -w -intstyle ise -ol high -mt off Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ncd Mini_Mute_FPGA.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mini_Mute_FPGA.twx Mini_Mute_FPGA.ncd -o Mini_Mute_FPGA.twr Mini_Mute_FPGA.pcf -ucf UCF_Spartan6_V2.ucf 
+bitgen -intstyle ise -f Mini_Mute_FPGA.ut Mini_Mute_FPGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF_Spartan6_V2.ucf -p xc6slx9-csg324-2 "Mini_Mute_FPGA.ngc" Mini_Mute_FPGA.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ngd Mini_Mute_FPGA.pcf 
+par -w -intstyle ise -ol high -mt off Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ncd Mini_Mute_FPGA.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mini_Mute_FPGA.twx Mini_Mute_FPGA.ncd -o Mini_Mute_FPGA.twr Mini_Mute_FPGA.pcf -ucf UCF_Spartan6_V2.ucf 
+bitgen -intstyle ise -f Mini_Mute_FPGA.ut Mini_Mute_FPGA.ncd 
+bitgen -intstyle ise -f Mini_Mute_FPGA.ut Mini_Mute_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF_Spartan6_V2.ucf -p xc6slx9-csg324-2 "Mini_Mute_FPGA.ngc" Mini_Mute_FPGA.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ngd Mini_Mute_FPGA.pcf 
+par -w -intstyle ise -ol high -mt off Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ncd Mini_Mute_FPGA.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mini_Mute_FPGA.twx Mini_Mute_FPGA.ncd -o Mini_Mute_FPGA.twr Mini_Mute_FPGA.pcf -ucf UCF_Spartan6_V2.ucf 
+bitgen -intstyle ise -f Mini_Mute_FPGA.ut Mini_Mute_FPGA.ncd 
+xst -intstyle ise -ifn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.xst" -ofn "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF_Spartan6_V2.ucf -p xc6slx9-csg324-2 "Mini_Mute_FPGA.ngc" Mini_Mute_FPGA.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ngd Mini_Mute_FPGA.pcf 
+par -w -intstyle ise -ol high -mt off Mini_Mute_FPGA_map.ncd Mini_Mute_FPGA.ncd Mini_Mute_FPGA.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mini_Mute_FPGA.twx Mini_Mute_FPGA.ncd -o Mini_Mute_FPGA.twr Mini_Mute_FPGA.pcf -ucf UCF_Spartan6_V2.ucf 
+bitgen -intstyle ise -f Mini_Mute_FPGA.ut Mini_Mute_FPGA.ncd 

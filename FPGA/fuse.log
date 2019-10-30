@@ -1,0 +1,74 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Sim_Mini_Mute_FPGA_V3_isim_beh.exe -prj C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Sim_Mini_Mute_FPGA_V3_beh.prj work.Sim_Mini_Mute_FPGA_V3 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/div_de_fre.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/contador_binario.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Maquina_checksum.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/MAC_cout.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/INTERRUPCION_B.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/cont_5ms_max4.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/contador_binario_4bits.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Contador_binario-8_bits.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Checksum_R.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Checksum.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Serial_Paralelo.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/paralelo_serial.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/MAC_SPI.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mac_Funciones_Mini_Mute.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/INTERRUPCION_S.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/evento_interrupcion.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Contador_senal_PPS.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Contador_Display_Leds.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/contador_binario_6bits.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/contador_binario_5bits.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Checksum_sistem.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Almacen_datos_RAM.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/SPI_SLAVE_R_W_.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Gestion_Funciones_Mini_Mute_FPGA.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Contadores_Y_Despliegue.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Banco_de_memorias.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Mini_Mute_FPGA.vhd" into library work
+Parsing VHDL file "C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Sim_Mini_Mute_FPGA_V3.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity INTERRUPCION_S [interrupcion_s_default]
+Compiling architecture behavioral of entity INTERRUPCION_B [interrupcion_b_default]
+Compiling architecture behavioral of entity Mac_Funciones_Mini_Mute_FPGA [mac_funciones_mini_mute_fpga_def...]
+Compiling architecture behavioral of entity Gestion_Funciones_Mini_Mute_FPGA [gestion_funciones_mini_mute_fpga...]
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity evento_interrupcion [evento_interrupcion_default]
+Compiling architecture behavioral of entity Almacen_datos_RAM [almacen_datos_ram_default]
+Compiling architecture behavioral of entity Contador_senal_PPS [contador_senal_pps_default]
+Compiling architecture n_bits of entity contador_binario_5bits [\contador_binario_5bits(5)\]
+Compiling architecture behavioral of entity Banco_de_memorias [banco_de_memorias_default]
+Compiling architecture behavioral of entity MAC_cout [mac_cout_default]
+Compiling architecture n_bits of entity contador_binario [\contador_binario(2)\]
+Compiling architecture modulo_variable of entity div_de_fre [\div_de_fre(13)\]
+Compiling architecture behavioral of entity cont_5ms_max4 [cont_5ms_max4_default]
+Compiling architecture n_bits of entity contador_binario_4bits [\contador_binario_4bits(4)\]
+Compiling architecture n_bits of entity contador_binario_8bits [\contador_binario_8bits(8)\]
+Compiling architecture behavioral of entity Contador_Display_Leds [contador_display_leds_default]
+Compiling architecture behavioral of entity Contadores_Y_Despliegue [contadores_y_despliegue_default]
+Compiling architecture behavioral of entity Maquina_SPI_SLAVE [maquina_spi_slave_default]
+Compiling architecture n_bits of entity Paralelo_Serial [\Paralelo_Serial(40)\]
+Compiling architecture behavioral of entity Serial_Paralelo [serial_paralelo_default]
+Compiling architecture n_bits of entity contador_binario_6bits [\contador_binario_6bits(6)\]
+Compiling architecture behavioral of entity Checksum [\Checksum(6)\]
+Compiling architecture behavioral of entity Checksum_RR [\Checksum_RR(3)\]
+Compiling architecture behavioral of entity Maquina_checksum [maquina_checksum_default]
+Compiling architecture behavioral of entity Checksum_sistem [checksum_sistem_default]
+Compiling architecture behavioral of entity SPI_SLAVE_R_W [spi_slave_r_w_default]
+Compiling architecture behavioral of entity Mini_Mute_FPGA [mini_mute_fpga_default]
+Compiling architecture behavior of entity sim_mini_mute_fpga_v3
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 60 VHDL Units
+Built simulation executable C:/Jose Luis/Jose UIS/Proyecto de grado/Interfaz_digita/FPGA_V2/Mini_Mute_FPGA_V3/Sim_Mini_Mute_FPGA_V3_isim_beh.exe
+Fuse Memory Usage: 38192 KB
+Fuse CPU Usage: 1372 ms
