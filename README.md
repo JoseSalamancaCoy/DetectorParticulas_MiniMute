@@ -4,4 +4,4 @@ de deteccion multipixel; los planos se ubican paralelamente sobre el mismo eje d
 entre los mismos. Su funcionamiento y resolucion temporal de deteccion dependen mayormente del sistema electronico de discriminacion 
 y registro de eventos utilizando una FPGA spartan 6 y RaspberryPi 3. 
 
-Las PCB de este proyecto se diseñaron desde Circuit Maker. La placa de discriminacion de particulas la encuentra en: https://workspace.circuitmaker.com/Projects/Details/Karen-Forero/Placa-Canales/embeded La placa principal que contiene la coneccion con FPGA Raspberry, sensores y la placa de discriminacion la encuentra en:https://circuitmaker.com/Projects/Details/Karen-Forero/Placa-Principal/embeded
+Las PCB de este proyecto se diseñaron desde Circuit Maker. La placa de discriminacion de particulas la encuentra en: https://workspace.circuitmaker.com/Projects/Details/Karen-Forero/Placa-Canales La placa principal que contiene la coneccion con FPGA Raspberry, sensores y la placa de discriminacion la encuentra en: https://circuitmaker.com/Projects/Details/Karen-Forero/Placa-Principal
