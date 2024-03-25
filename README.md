@@ -5,3 +5,5 @@ entre los mismos. Su funcionamiento y resolucion temporal de deteccion dependen 
 y registro de eventos utilizando una FPGA spartan 6 y RaspberryPi 3. 
 
 Las PCB de este proyecto se diseñaron desde Circuit Maker. La placa de discriminacion de particulas la encuentra en: https://workspace.circuitmaker.com/Projects/Details/Karen-Forero/Placa-Canales La placa principal que contiene la coneccion con FPGA Raspberry, sensores y la placa de discriminacion la encuentra en: https://circuitmaker.com/Projects/Details/Karen-Forero/Placa-Principal
+
+Datasheet_MiniMute_V1 contiene la ultima version del libro con todas las pruebas relacionadas al instrumento. 
